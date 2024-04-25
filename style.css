@@ -13,6 +13,14 @@
     width: 10px;
 }
 
+.creator_box {
+    justify-content: center !important;
+}
+
+.border-box img {
+    border: 1px solid rgb(68, 68, 68);
+}
+
 
 /* Track */
 
@@ -167,6 +175,20 @@
     padding: 20px 30px;
     /* height: 300px; */
 }
+
+.subs-button {
+    margin-bottom: 30px !important;
+}
+
+
+/* .sub-items {
+    margin-left: -50px !important;
+} */
+
+
+/* .sub-items img {
+    margin-right: 30px !important;
+} */
 
 .content {
     overflow-y: scroll !important;
@@ -376,25 +398,29 @@ body {
     font-size: 13px;
 }
 
-.deary {
+
+/* .deary {
     padding: 0px 25px;
-}
+} */
 
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 30px !important;
     margin: 0px 20px !important;
-    place-items: center;
+    /* place-items: center; */
+    justify-content: center;
 }
 
-.deary-2 {
+
+/* .deary-2 {
     margin-left: -50px;
-}
+} */
 
-.deary-3 {
+
+/* .deary-3 {
     margin-left: -40px;
-}
+} */
 
 .fill-2 a {
     margin: 10px;
